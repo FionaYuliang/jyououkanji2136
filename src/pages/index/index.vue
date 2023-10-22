@@ -4,11 +4,7 @@
       <img src="" alt="" />
     </view>
     {{ msg }} <Dongdong />
-    <view class="btn">
-      <nut-button type="primary" @click="handleClick('text', msg2, true)"
-        >点我</nut-button
-      >
-    </view>
+    <view class="btn"> </view>
     <nut-toast :msg="msg2" v-model:visible="show" :type="type" :cover="cover" />
   </view>
 </template>
@@ -16,6 +12,7 @@
 <script>
 import { reactive, toRefs } from "vue";
 import { Dongdong } from "@nutui/icons-vue-taro";
+import { AtSearchBar } from "taro-ui-vue3";
 export default {
   name: "Index",
   components: {
@@ -24,7 +21,7 @@ export default {
   setup() {
     const state = reactive({
       msg: "欢迎使用 NutUI4.0 开发小程序",
-      msg2: "你成功11111了～",
+      msg2: "你成功了～",
       type: "text",
       show: false,
       cover: false,

@@ -14,7 +14,10 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "ignoreUploadUnusedFiles": true
+    "ignoreUploadUnusedFiles": true,
+    "cache": {
+      "enable": true
+    }
   },
   "compileType": "miniprogram",
   "libVersion": "2.25.3",
