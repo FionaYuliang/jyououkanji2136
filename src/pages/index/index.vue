@@ -1,6 +1,8 @@
 <template>
   <view class="index">
     <SearchBar></SearchBar>
+    <!-- <SideNavBar></SideNavBar> -->
+    <HiraganaElevator></HiraganaElevator>
     {{ msg }}
     <nut-toast :msg="msg2" v-model:visible="show" :type="type" :cover="cover" />
   </view>
@@ -9,6 +11,8 @@
 <script lang="ts" setup>
 import { reactive, toRefs } from "vue";
 import SearchBar from "./searchbar.vue";
+import HiraganaElevator from "./elevator.vue";
+
 // import { Searchbar } from "@nutui/nutui-taro";
 
 const state = reactive({
