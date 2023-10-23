@@ -9,19 +9,10 @@
   </nut-elevator>
 </template>
 <script lang="ts" setup>
+import { hiraganaDataList } from "../dataList";
 import { reactive } from "vue";
 
-const dataList = reactive([
-  {
-    title: "A",
-    list: [
-      {
-        name: "安徽",
-        id: 1,
-      },
-    ],
-  },
-]);
+const dataList = reactive([...hiraganaDataList]);
 
 const clickItem = (key: string, item: any) => {
   // console.log("clickItem", key, JSON.stringify(item));

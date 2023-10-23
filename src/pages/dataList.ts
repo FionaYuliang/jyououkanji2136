@@ -1,22 +1,28 @@
+let id = 0;
+function getId() {
+  id++;
+  return id;
+}
+
 export const hiraganaDataList = [
   {
     title: "あア",
     list: [
       {
         name: "あ",
-        id: 1,
+        id: getId(),
       },
       {
         name: "あい",
-        id: 2,
+        id: getId(),
       },
       {
         name: "あく",
-        id: 3,
+        id: getId(),
       },
       {
         name: "あつ",
-        id: 4,
+        id: getId(),
       },
     ],
   },
@@ -25,35 +31,35 @@ export const hiraganaDataList = [
     list: [
       {
         name: "い",
-        id: 5,
+        id: getId(),
       },
       {
         name: "いき",
-        id: 6,
+        id: getId(),
       },
       {
         name: "いく",
-        id: 7,
+        id: getId(),
       },
       {
         name: "いち",
-        id: 8,
+        id: getId(),
       },
       {
         name: "いつ",
-        id: 9,
+        id: getId(),
       },
       {
         name: "いばら",
-        id: 10,
+        id: getId(),
       },
       {
         name: "いも",
-        id: 11,
+        id: getId(),
       },
       {
         name: "いん",
-        id: 12,
+        id: getId(),
       },
     ],
   },
@@ -62,27 +68,27 @@ export const hiraganaDataList = [
     list: [
       {
         name: "う",
-        id: 13,
+        id: getId(),
       },
       {
         name: "うた",
-        id: 14,
+        id: getId(),
       },
       {
         name: "うつ",
-        id: 15,
+        id: getId(),
       },
       {
         name: "うね",
-        id: 16,
+        id: getId(),
       },
       {
         name: "うら",
-        id: 17,
+        id: getId(),
       },
       {
         name: "うん",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -91,19 +97,19 @@ export const hiraganaDataList = [
     list: [
       {
         name: "えい",
-        id: 19,
+        id: getId(),
       },
       {
         name: "えき",
-        id: 20,
+        id: getId(),
       },
       {
         name: "えつ",
-        id: 21,
+        id: getId(),
       },
       {
         name: "えん",
-        id: 22,
+        id: getId(),
       },
     ],
   },
@@ -112,39 +118,39 @@ export const hiraganaDataList = [
     list: [
       {
         name: "お",
-        id: 23,
+        id: getId(),
       },
       {
         name: "おう",
-        id: 24,
+        id: getId(),
       },
       {
         name: "おか",
-        id: 25,
+        id: getId(),
       },
       {
         name: "おく",
-        id: 26,
+        id: getId(),
       },
       {
         name: "おそれ",
-        id: 27,
+        id: getId(),
       },
       {
         name: "おつ",
-        id: 28,
+        id: getId(),
       },
       {
         name: "おれ",
-        id: 29,
+        id: getId(),
       },
       {
         name: "おろす",
-        id: 30,
+        id: getId(),
       },
       {
         name: "おん",
-        id: 31,
+        id: getId(),
       },
     ],
   },
@@ -153,71 +159,71 @@ export const hiraganaDataList = [
     list: [
       {
         name: "か",
-        id: 32,
+        id: getId(),
       },
       {
         name: "が",
-        id: 33,
+        id: getId(),
       },
       {
         name: "かい",
-        id: 34,
+        id: getId(),
       },
       {
         name: "がい",
-        id: 35,
+        id: getId(),
       },
       {
         name: "かき",
-        id: 36,
+        id: getId(),
       },
       {
         name: "かき",
-        id: 37,
+        id: getId(),
       },
       {
         name: "かく",
-        id: 38,
+        id: getId(),
       },
       {
         name: "がく",
-        id: 39,
+        id: getId(),
       },
       {
         name: "かける",
-        id: 40,
+        id: getId(),
       },
       {
         name: "かた",
-        id: 41,
+        id: getId(),
       },
       {
         name: "かつ",
-        id: 42,
+        id: getId(),
       },
       {
         name: "かぶ",
-        id: 43,
+        id: getId(),
       },
       {
         name: "かま",
-        id: 44,
+        id: getId(),
       },
       {
         name: "かま",
-        id: 45,
+        id: getId(),
       },
       {
         name: "かる",
-        id: 46,
+        id: getId(),
       },
       {
         name: "かん",
-        id: 47,
+        id: getId(),
       },
       {
         name: "がん",
-        id: 48,
+        id: getId(),
       },
     ],
   },
@@ -226,67 +232,67 @@ export const hiraganaDataList = [
     list: [
       {
         name: "き",
-        id: 49,
+        id: getId(),
       },
       {
         name: "ぎ",
-        id: 50,
+        id: getId(),
       },
       {
         name: "きく",
-        id: 51,
+        id: getId(),
       },
       {
         name: "きち",
-        id: 49,
+        id: getId(),
       },
       {
         name: "きつ",
-        id: 50,
+        id: getId(),
       },
       {
         name: "きゃく",
-        id: 51,
+        id: getId(),
       },
       {
         name: "ぎゃく",
-        id: 52,
+        id: getId(),
       },
       {
         name: "きゅう",
-        id: 53,
+        id: getId(),
       },
       {
         name: "きょ",
-        id: 54,
+        id: getId(),
       },
       {
         name: "ぎょ",
-        id: 55,
+        id: getId(),
       },
       {
         name: "きょう",
-        id: 56,
+        id: getId(),
       },
       {
         name: "ぎょう",
-        id: 57,
+        id: getId(),
       },
       {
         name: "きょく",
-        id: 58,
+        id: getId(),
       },
       {
         name: "ぎょく",
-        id: 59,
+        id: getId(),
       },
       {
         name: "きん",
-        id: 60,
+        id: getId(),
       },
       {
         name: "ぎん",
-        id: 61,
+        id: getId(),
       },
     ],
   },
@@ -295,43 +301,43 @@ export const hiraganaDataList = [
     list: [
       {
         name: "く",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ぐ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "くう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ぐう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "くし",
-        id: 18,
+        id: getId(),
       },
       {
         name: "くつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "くま",
-        id: 18,
+        id: getId(),
       },
       {
         name: "くる",
-        id: 18,
+        id: getId(),
       },
       {
         name: "くん",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ぐん",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -340,35 +346,35 @@ export const hiraganaDataList = [
     list: [
       {
         name: "けい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "げい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "げき",
-        id: 18,
+        id: getId(),
       },
       {
         name: "けた",
-        id: 18,
+        id: getId(),
       },
       {
         name: "けつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "げつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "けん",
-        id: 18,
+        id: getId(),
       },
       {
         name: "げん",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -377,47 +383,47 @@ export const hiraganaDataList = [
     list: [
       {
         name: "こ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ご",
-        id: 18,
+        id: getId(),
       },
       {
         name: "こう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ごう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "こく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ごく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "こつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "こま",
-        id: 18,
+        id: getId(),
       },
       {
         name: "こむ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ころ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "こん",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -426,51 +432,51 @@ export const hiraganaDataList = [
     list: [
       {
         name: "さ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ざ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "さい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ざい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "さき",
-        id: 18,
+        id: getId(),
       },
       {
         name: "さく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "さつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "さく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ざつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "さら",
-        id: 18,
+        id: getId(),
       },
       {
         name: "さん",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ざん",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -479,131 +485,131 @@ export const hiraganaDataList = [
     list: [
       {
         name: "し",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しか",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しき",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しち",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しば",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しゃ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じゃ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しゃく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じゃく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しゅ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じゅ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しゅう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じゅう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しゅく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じゅく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しゅつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じゅつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しゅん",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じゅん",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しょ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じょ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しょう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じょう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しょく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じょく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しり",
-        id: 18,
+        id: getId(),
       },
       {
         name: "しん",
-        id: 18,
+        id: getId(),
       },
       {
         name: "じん",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -612,39 +618,39 @@ export const hiraganaDataList = [
     list: [
       {
         name: "す",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ず",
-        id: 18,
+        id: getId(),
       },
       {
         name: "すい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ずい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "すう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "すえる",
-        id: 18,
+        id: getId(),
       },
       {
         name: "すぎ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "すそ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "すん",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -653,39 +659,39 @@ export const hiraganaDataList = [
     list: [
       {
         name: "せ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ぜ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "せい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ぜい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "せき",
-        id: 18,
+        id: getId(),
       },
       {
         name: "せつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ぜつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "せん",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ぜん",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -694,31 +700,31 @@ export const hiraganaDataList = [
     list: [
       {
         name: "そ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "そう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ぞう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "そく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ぞく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "そつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "そん",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -727,59 +733,59 @@ export const hiraganaDataList = [
     list: [
       {
         name: "た",
-        id: 18,
+        id: getId(),
       },
       {
         name: "だ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "たい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "だい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "たき",
-        id: 18,
+        id: getId(),
       },
       {
         name: "たく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "だく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ただし",
-        id: 18,
+        id: getId(),
       },
       {
         name: "たつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "だつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "たな",
-        id: 18,
+        id: getId(),
       },
       {
         name: "だれ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "たん",
-        id: 18,
+        id: getId(),
       },
       {
         name: "だん",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -788,43 +794,43 @@ export const hiraganaDataList = [
     list: [
       {
         name: "ち",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ちく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ちつ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ちゃ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ちゃく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ちゅう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ちょ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ちょう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ちょく",
-        id: 18,
+        id: getId(),
       },
       {
         name: "ちん",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -833,35 +839,35 @@ export const hiraganaDataList = [
     list: [
       {
         name: "つい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "つい",
-        id: 18,
+        id: getId(),
       },
       {
         name: "つう",
-        id: 18,
+        id: getId(),
       },
       {
         name: "つか",
-        id: 18,
+        id: getId(),
       },
       {
         name: "つける",
-        id: 18,
+        id: getId(),
       },
       {
         name: "つば",
-        id: 18,
+        id: getId(),
       },
       {
         name: "つめ",
-        id: 18,
+        id: getId(),
       },
       {
         name: "つる",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -870,7 +876,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -879,7 +885,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -888,7 +894,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -897,7 +903,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -906,7 +912,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -915,7 +921,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -924,7 +930,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -933,7 +939,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -942,7 +948,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -951,7 +957,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -960,7 +966,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -969,7 +975,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -978,7 +984,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -987,7 +993,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -996,7 +1002,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1005,7 +1011,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1014,7 +1020,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1023,7 +1029,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1032,7 +1038,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1041,7 +1047,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1050,7 +1056,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1059,7 +1065,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1069,7 +1075,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1079,7 +1085,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1089,7 +1095,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1098,7 +1104,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },
@@ -1107,7 +1113,7 @@ export const hiraganaDataList = [
     list: [
       {
         name: "辽宁",
-        id: 18,
+        id: getId(),
       },
     ],
   },

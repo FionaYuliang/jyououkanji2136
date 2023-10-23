@@ -1,6 +1,4 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
-// import Index from "src/pages/index/index.vue";
-import Detail from "src/pages/index/detail.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -16,7 +14,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/detail",
     name: "detail",
-    component: () => Detail,
+    component: () => import("src/pages/index/detail.vue"),
   },
 ];
 const router = createRouter({
