@@ -8,24 +8,27 @@
   >
   </nut-elevator>
 </template>
-<script lang="ts">
-import { reactive, toRefs } from "vue";
-export default {
-  setup() {
-    const state = reactive({
-      dataList: [],
-    });
+<script lang="ts" setup>
+import { reactive } from "vue";
 
-    const clickItem = (key: string, item: any) => {
-      // console.log("clickItem", key, JSON.stringify(item));
-    };
-
-    const clickIndex = (key: string) => {
-      console.log(key);
-    };
-
-    return { ...toRefs(state), clickItem, clickIndex };
+const dataList = reactive([
+  {
+    title: "A",
+    list: [
+      {
+        name: "安徽",
+        id: 1,
+      },
+    ],
   },
+]);
+
+const clickItem = (key: string, item: any) => {
+  // console.log("clickItem", key, JSON.stringify(item));
+};
+
+const clickIndex = (key: string) => {
+  console.log(key);
 };
 </script>
 <style lang="scoped"></style>

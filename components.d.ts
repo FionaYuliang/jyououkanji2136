@@ -9,6 +9,8 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     NutButton: typeof import('@nutui/nutui-taro')['Button']
     NutCell: typeof import('@nutui/nutui-taro')['Cell']
+    NutCollapse: typeof import('@nutui/nutui-taro')['Collapse']
+    NutCollapseItem: typeof import('@nutui/nutui-taro')['CollapseItem']
     NutElevator: typeof import('@nutui/nutui-taro')['Elevator']
     NutPopup: typeof import('@nutui/nutui-taro')['Popup']
     NutSearchbar: typeof import('@nutui/nutui-taro')['Searchbar']
