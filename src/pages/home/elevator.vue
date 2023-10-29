@@ -9,13 +9,16 @@
   </nut-elevator>
 </template>
 <script lang="ts" setup>
+import { useRouter } from "vue-router";
 import { hiraganaDataList } from "../dataList";
 import { reactive } from "vue";
+const router = useRouter();
 
 const dataList = reactive([...hiraganaDataList]);
 
 const clickItem = (key: string, item: any) => {
-  // console.log("clickItem", key, JSON.stringify(item));
+  console.log("clickItem", key, JSON.stringify(item));
+  router.push("/pages/detail");
 };
 
 const clickIndex = (key: string) => {

@@ -1,24 +1,26 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import Detail from "../pages/detail/index.vue";
+import Home from "../pages/home/index.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    name: "home",
-    redirect: "/index",
-  },
-  {
-    path: "/index",
     name: "index",
-    component: () => import("src/pages/index/index.vue"),
+    redirect: "/pages/home",
   },
   {
-    path: "/detail",
-    name: "detail",
-    component: () => import("src/pages/index/detail.vue"),
+    path: "/pages/home",
+    // name: "index",
+    component: Home,
+  },
+  {
+    path: "/pages/detail",
+    // name: "detail",
+    component: Detail,
   },
 ];
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
 
