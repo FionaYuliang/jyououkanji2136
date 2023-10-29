@@ -9,10 +9,12 @@
           <div class="word">爱情</div>
           <div class="word">爱用</div>
           <div class="word">爱娇</div>
+          <View>hello:{{ char }}</View>
         </div>
       </div>
     </div>
     <div class="button-container">
+      <nut-button color="#7232dd" @click="onClick.back">返回</nut-button>
       <nut-button color="#7232dd">prev page</nut-button>
       <nut-button color="#7232dd" plain>next page</nut-button>
     </div>
@@ -20,8 +22,19 @@
 </template>
 
 <script lang="ts" setup>
+import { useRoute, useRouter } from "vue-router";
 import { reactive, toRefs } from "vue";
 import { Button } from "@nutui/nutui";
+
+const route = useRoute();
+const router = useRouter();
+const char = route.query.char;
+
+const onClick = {
+  back: () => {
+    router.go(-1);
+  },
+};
 </script>
 
 <style lang="scss">

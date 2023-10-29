@@ -18,7 +18,12 @@ const dataList = reactive([...hiraganaDataList]);
 
 const clickItem = (key: string, item: any) => {
   console.log("clickItem", key, JSON.stringify(item));
-  router.push("/pages/detail");
+  router.push({
+    path: "/pages/detail",
+    query: {
+      char: item.name,
+    },
+  });
 };
 
 const clickIndex = (key: string) => {
