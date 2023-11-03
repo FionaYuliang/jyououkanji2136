@@ -79,97 +79,97 @@ export const hiraganaDataList = [
       },
     ],
   },
-  {
-    title: "うウ",
-    list: [
-      {
-        name: "う",
-        id: getId(),
-      },
-      {
-        name: "うた",
-        id: getId(),
-      },
-      {
-        name: "うつ",
-        id: getId(),
-      },
-      {
-        name: "うね",
-        id: getId(),
-      },
-      {
-        name: "うら",
-        id: getId(),
-      },
-      {
-        name: "うん",
-        id: getId(),
-      },
-    ],
-  },
-  {
-    title: "えエ",
-    list: [
-      {
-        name: "えい",
-        id: getId(),
-      },
-      {
-        name: "えき",
-        id: getId(),
-      },
-      {
-        name: "えつ",
-        id: getId(),
-      },
-      {
-        name: "えん",
-        id: getId(),
-      },
-    ],
-  },
-  {
-    title: "おオ",
-    list: [
-      {
-        name: "お",
-        id: getId(),
-      },
-      {
-        name: "おう",
-        id: getId(),
-      },
-      {
-        name: "おか",
-        id: getId(),
-      },
-      {
-        name: "おく",
-        id: getId(),
-      },
-      {
-        name: "おそれ",
-        id: getId(),
-      },
-      {
-        name: "おつ",
-        id: getId(),
-      },
-      {
-        name: "おれ",
-        id: getId(),
-      },
-      {
-        name: "おろす",
-        id: getId(),
-      },
-      {
-        name: "おん",
-        id: getId(),
-      },
-    ],
-  },
+  // {
+  //   title: "うウ",
+  //   list: [
+  //     {
+  //       name: "う",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "うた",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "うつ",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "うね",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "うら",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "うん",
+  //       id: getId(),
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "えエ",
+  //   list: [
+  //     {
+  //       name: "えい",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "えき",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "えつ",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "えん",
+  //       id: getId(),
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "おオ",
+  //   list: [
+  //     {
+  //       name: "お",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "おう",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "おか",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "おく",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "おそれ",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "おつ",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "おれ",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "おろす",
+  //       id: getId(),
+  //     },
+  //     {
+  //       name: "おん",
+  //       id: getId(),
+  //     },
+  //   ],
+  // },
   // {
   //   title: "かカ",
   //   list: [
