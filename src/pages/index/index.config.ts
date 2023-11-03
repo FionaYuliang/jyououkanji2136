@@ -1,3 +1,3 @@
 export default definePageConfig({
-  navigationBarTitleText: "目录索引",
+  navigationBarTitleText: "日语汉字2136小程序",
 });

@@ -1351,3 +1351,8 @@ export const hiraganaDataList = [
   //   ],
   // },
 ];
+
+export let maxLength = 0;
+for (let item of hiraganaDataList) {
+  maxLength = maxLength + item.list.length;
+}

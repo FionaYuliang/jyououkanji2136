@@ -1,5 +1,5 @@
 <template>
-  <view class="index">
+  <view class="index-2edb539">
     <view class="content-container">
       <view class="first-level">{{ key }}</view>
       <view class="second-level">
@@ -27,7 +27,7 @@
         color="#00BFFF"
         @click="onClick.next"
         plain
-        :disabled="charid === '2136'"
+        :disabled="charid === `${maxLength}`"
         >next page</nut-button
       >
     </view>
@@ -38,7 +38,8 @@
 import { useRoute, useRouter } from "vue-router";
 import { ref, toRefs, onMounted, watch } from "vue";
 import { Button } from "@nutui/nutui";
-import { hiraganaContentList, charId2Char } from "../content";
+import { charId2Char } from "../content";
+import { maxLength } from "../dataList";
 
 const route = useRoute();
 const router = useRouter();
@@ -55,8 +56,7 @@ watch(
   () => {
     charid.value = route.query.charid as string;
     char.value = charId2Char[charid.value];
-    key.value = ref(char.value.title);
-    console.log("change 2 ", charid.value);
+    key.value = char.value.title;
   }
 );
 
@@ -85,56 +85,54 @@ const onClick = {
 };
 </script>
 
-<style lang="scss">
-body {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: ghostwhite;
-}
-.content-container {
-  margin-top: 0.75rem;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-  margin-bottom: 2.5rem;
-  padding: 0.9rem;
-  text-align: left;
-}
-.first-level {
-  font-size: larger;
-  font-weight: 900;
-}
-.second-level {
-  font-size: large;
-}
+<style lang="less">
+.index-2edb539 {
+  background-color: azure;
+  min-height: 100vh;
+  .content-container {
+    margin-top: 0.75rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    padding: 0.9rem;
+    padding-bottom: 150px;
+    text-align: left;
+  }
+  .first-level {
+    font-size: larger;
+    font-weight: 900;
+  }
+  .second-level {
+    font-size: large;
+  }
 
-.pronunce-level {
-  font-size: large;
-  font-weight: 800;
-}
-.kanji-level {
-  margin-top: 40px;
-  padding-left: 10px;
-  font-size: large;
-  font-weight: 500;
-  color: red;
-  border: solid 1px red;
-}
-.word-level {
-  margin-top: 10px;
-  display: inline-block;
-}
-.word {
-  margin-left: 10px;
-  margin-right: 10px;
-  font-weight: 400;
-}
-.button-container {
-  width: 100%;
-  position: fixed;
-  bottom: 1.5rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  .pronunce-level {
+    font-size: large;
+    font-weight: 800;
+  }
+  .kanji-level {
+    margin-top: 40px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 500;
+    color: red;
+    border: solid 1px red;
+  }
+  .word-level {
+    margin-top: 10px;
+    display: inline-block;
+  }
+  .word {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+  }
+  .button-container {
+    width: 100%;
+    position: fixed;
+    bottom: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 }
 </style>
