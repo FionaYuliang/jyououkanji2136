@@ -1,5 +1,6 @@
 {
   "miniprogramRoot": "dist/",
+  "appid": "wxc5f088def16c27b6",
   "projectname": "jyououkanji2136",
   "description": "日本文化厅常用汉字2136表",
   "setting": {
@@ -17,7 +18,9 @@
     "ignoreUploadUnusedFiles": true,
     "cache": {
       "enable": true
-    }
+    },
+    "minifyWXML": false,
+    "minifyWXSS": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.25.3",
