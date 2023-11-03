@@ -17,14 +17,14 @@
     </view>
     <view class="button-container">
       <nut-button
-        color="#7232dd"
+        color="#00BFFF"
         :disabled="charid === '1'"
         @click="onClick.back"
         >prev page</nut-button
       >
-      <nut-button color="#7232dd" @click="onClick.home">home</nut-button>
+      <nut-button color="#00BFFF" @click="onClick.home">home</nut-button>
       <nut-button
-        color="#7232dd"
+        color="#00BFFF"
         @click="onClick.next"
         plain
         :disabled="charid === '2136'"
@@ -93,11 +93,11 @@ body {
   background-color: ghostwhite;
 }
 .content-container {
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  padding: 20px;
+  margin-top: 0.75rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  margin-bottom: 2.5rem;
+  padding: 0.9rem;
   text-align: left;
 }
 .first-level {
@@ -131,9 +131,8 @@ body {
 }
 .button-container {
   width: 100%;
-
   position: fixed;
-  bottom: 100px;
+  bottom: 1.5rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;

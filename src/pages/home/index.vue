@@ -1,6 +1,6 @@
 <template>
   <view class="index">
-    <SearchBar></SearchBar>
+    <!-- <SearchBar></SearchBar> -->
     <HiraganaElevator></HiraganaElevator>
     <!-- <FooterBar></FooterBar> -->
   </view>
@@ -13,6 +13,10 @@ import HiraganaElevator from "./elevator.vue";
 </script>
 
 <style lang="scss">
+.taro_router .taro_page.taro_tabbar_page,
+.taro_router .taro_page.taro_page_show.taro_page_stationed {
+  background-color: azure;
+}
 .index {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

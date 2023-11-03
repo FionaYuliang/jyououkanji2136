@@ -1,8 +1,9 @@
 <template>
   <nut-elevator
+    class="customer-elevator"
     :index-list="dataList"
     :is-sticky="true"
-    height="90vh"
+    height="100vh"
     @click-item="clickItem"
     @click-index="clickIndex"
   >
@@ -30,4 +31,8 @@ const clickIndex = (key: string) => {
   console.log(key);
 };
 </script>
-<style lang="scoped"></style>
+<style lang="less" scoped>
+.customer-elevator {
+  overflow: hidden;
+}
+</style>

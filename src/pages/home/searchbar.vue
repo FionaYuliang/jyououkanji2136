@@ -10,6 +10,6 @@
 import { toRefs, reactive } from "vue";
 
 const state = reactive({
-  searchValue: "请输入汉字或平假名",
+  searchValue: "请点击下方目录索引中的平假名",
 });
 </script>
