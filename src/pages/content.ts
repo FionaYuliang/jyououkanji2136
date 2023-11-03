@@ -3,11 +3,6 @@ function getId() {
   id++;
   return id;
 }
-let hanziId = 0;
-function getHanziId() {
-  hanziId++;
-  return hanziId;
-}
 
 export const hiraganaContentList = [
   {
@@ -18,10 +13,9 @@ export const hiraganaContentList = [
         id: getId(),
         child: [
           {
-            read: "亜",
-            hanziId: 0001,
-            word:["亜熱帯・あねつたい","亜麻あま","亜流・ありゅう"]
-            xundu:"亜ぐ・つぐ",
+            hanzi: "亜",
+            hanziId: "0001",
+            word: ["亜熱帯・あねつたい", "亜麻あま", "亜流・ありゅう"],
           },
         ],
       },
@@ -31,27 +25,23 @@ export const hiraganaContentList = [
         child: [
           {
             hanzi: "哀",
-            hanziId: 0002,
-            word:["哀歓・あいかん","",""]
-            xundu:"哀れ・あわれ",
+            hanziId: "0002",
+            word: ["哀歓・あいかん"],
           },
           {
             hanzi: "挨",
-            hanziId: 0003,
-            word:["挨拶・あいさつ","",""]
-            xundu:"",
+            hanziId: "0003",
+            word: ["挨拶・あいさつ"],
           },
           {
             hanzi: "愛",
-            hanziId: 0004,
-            word:["愛好・あいこう","愛らしい","愛着・あいちゃく"]
-            xundu:"",
+            hanziId: "0004",
+            word: ["愛好・あいこう", "愛らしい", "愛着・あいちゃく"],
           },
           {
             hanzi: "曖",
-            hanziId: 0005,
-            word:["曖昧・あいまい"]
-            xundu:"",
+            hanziId: "0005",
+            word: ["曖昧・あいまい"],
           },
         ],
       },
@@ -60,16 +50,14 @@ export const hiraganaContentList = [
         id: getId(),
         child: [
           {
-            hanzi: "",
-            hanziId: 0006,
-            word:["","",""]
-            xundu:"",
+            hanzi: "悪",
+            hanziId: "0006",
+            word: ["最悪さいあく", "", ""],
           },
           {
-            hanzi: "",
-            hanziId: 0007,
-            word:["","",""]
-            xundu:"",
+            hanzi: "握",
+            hanziId: "0007",
+            word: ["握手あくしゅ", "把握はあく"],
           },
         ],
       },
@@ -78,10 +66,63 @@ export const hiraganaContentList = [
         id: getId(),
         child: [
           {
-            hanzi: "",
-            hanziId: 0008,
-            word:["","",""]
-            xundu:"",
+            hanzi: "圧",
+            hanziId: "0008",
+            word: ["圧迫あっぱく", "", ""],
+          },
+        ],
+      },
+      {
+        name: "あつかう",
+        id: getId(),
+        child: [
+          {
+            hanzi: "扱",
+            hanziId: "0009",
+            word: ["取り扱う とりあつかう", "", ""],
+          },
+        ],
+      },
+      {
+        name: "あてる",
+        id: getId(),
+        child: [
+          {
+            hanzi: "宛",
+            hanziId: "0010",
+            word: ["宛先あてさき", "宛名あてな", ""],
+          },
+        ],
+      },
+      {
+        name: "あらし",
+        id: getId(),
+        child: [
+          {
+            hanzi: "嵐",
+            hanziId: "0011",
+            word: ["", "", ""],
+          },
+        ],
+      },
+      {
+        name: "あん",
+        id: getId(),
+        child: [
+          {
+            hanzi: "安",
+            hanziId: "0012",
+            word: ["安全あんぜん", "不安ふあん", ""],
+          },
+          {
+            hanzi: "案",
+            hanziId: "0013",
+            word: ["案内あんない", "案じる", "答案とうあん"],
+          },
+          {
+            hanzi: "暗",
+            hanziId: "0014",
+            word: ["暗殺あんさつ", "暗示あんじ", "暗算あんざん"],
           },
         ],
       },
@@ -93,34 +134,269 @@ export const hiraganaContentList = [
       {
         name: "い",
         id: getId(),
+        child: [
+          {
+            hanzi: "以",
+            hanziId: "0015",
+            word: ["以上・いじょう", "以降・いこう", "以外・いがい"],
+          },
+          {
+            hanzi: "衣",
+            hanziId: "0016",
+            word: ["衣服・いふく", "衣食住・いしょくじゅう", ""],
+          },
+          {
+            hanzi: "位",
+            hanziId: "0017",
+            word: ["位置・いち", "単位・たんい", ""],
+          },
+          {
+            hanzi: "囲",
+            hanziId: "0018",
+            word: ["雰囲気・ふんいき", "範囲・はんい", "周囲・しゅうい"],
+          },
+          {
+            hanzi: "医",
+            hanziId: "0019",
+            word: ["医学・いがく", "歯医者・はいしゃ", "医療・いりょう"],
+          },
+          {
+            hanzi: "依",
+            hanziId: "0020",
+            word: ["依頼・いらい", "依然・いぜん", ""],
+          },
+          {
+            hanzi: "委",
+            hanziId: "0021",
+            word: ["委託・いたく", "委員・いいん", ""],
+          },
+          {
+            hanzi: "威",
+            hanziId: "0022",
+            word: ["権威・けんい", "", ""],
+          },
+          {
+            hanzi: "為",
+            hanziId: "0023",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "畏",
+            hanziId: "0024",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "胃",
+            hanziId: "0025",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "尉",
+            hanziId: "0026",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "異",
+            hanziId: "0027",
+            word: ["異常・いじょう", "異見・いけん", "異議・いぎ"],
+          },
+          {
+            hanzi: "移",
+            hanziId: "0028",
+            word: ["移動・いどう", "推移・すいい", ""],
+          },
+          {
+            hanzi: "萎",
+            hanziId: "0029",
+            word: ["萎縮・いしゅく", "", ""],
+          },
+          {
+            hanzi: "偉",
+            hanziId: "0030",
+            word: ["偉大・いだい", "", ""],
+          },
+          {
+            hanzi: "椅",
+            hanziId: "0031",
+            word: ["椅子・いす", "", ""],
+          },
+          {
+            hanzi: "彙",
+            hanziId: "0032",
+            word: ["語彙・ごい", "", ""],
+          },
+          {
+            hanzi: "意",
+            hanziId: "0033",
+            word: ["意識・いしき", "意地悪・いじわる", "得意・とくい"],
+          },
+          {
+            hanzi: "違",
+            hanziId: "0034",
+            word: ["違反・いはん", "違和感・いわかん", ""],
+          },
+          {
+            hanzi: "維",
+            hanziId: "0035",
+            word: ["繊維・せんい", "", ""],
+          },
+          {
+            hanzi: "慰",
+            hanziId: "0036",
+            word: ["慰留・いりゅう", "", ""],
+          },
+          {
+            hanzi: "遺",
+            hanziId: "0037",
+            word: ["遺跡・いせき", "", ""],
+          },
+          {
+            hanzi: "緯",
+            hanziId: "0038",
+            word: ["緯度・いど", "", ""],
+          },
+        ],
       },
       {
         name: "いき",
         id: getId(),
+        child: [
+          {
+            hanzi: "域",
+            hanziId: "0039",
+            word: ["地域・ちいき", "領域・りょういき", ""],
+          },
+        ],
       },
       {
         name: "いく",
         id: getId(),
+        child: [
+          {
+            hanzi: "育",
+            hanziId: "0040",
+            word: [
+              "教育・きょういく",
+              "体育館・たいいくかん",
+              "育成・いくせい",
+            ],
+          },
+        ],
       },
       {
         name: "いち",
         id: getId(),
+        child: [
+          {
+            hanzi: "一",
+            hanziId: "0041",
+            word: ["一期一会・いちごいちえ", "", ""],
+          },
+          {
+            hanzi: "壱",
+            hanziId: "0042",
+            word: ["壱万円・いちまんえん", "", ""],
+          },
+        ],
       },
       {
         name: "いつ",
         id: getId(),
+        child: [
+          {
+            hanzi: "逸",
+            hanziId: "0043",
+            word: ["逸材・いつざい", "", ""],
+          },
+        ],
       },
       {
         name: "いばら",
         id: getId(),
+        child: [
+          {
+            hanzi: "茨",
+            hanziId: "0044",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "いも",
         id: getId(),
+        child: [
+          {
+            hanzi: "芋",
+            hanziId: "0045",
+            word: ["じゃが芋", "", ""],
+          },
+        ],
       },
       {
         name: "いん",
         id: getId(),
+        child: [
+          {
+            hanzi: "引",
+            hanziId: "0046",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "印",
+            hanziId: "0047",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "因",
+            hanziId: "0048",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "咽",
+            hanziId: "0049",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "姻",
+            hanziId: "0050",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "員",
+            hanziId: "0051",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "院",
+            hanziId: "0052",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "淫",
+            hanziId: "0053",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "陰",
+            hanziId: "0054",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "飲",
+            hanziId: "0055",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "隠",
+            hanziId: "0056",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "韻",
+            hanziId: "0057",
+            word: ["", "", ""],
+          },
+        ],
       },
     ],
   },
@@ -130,26 +406,88 @@ export const hiraganaContentList = [
       {
         name: "う",
         id: getId(),
+        child: [
+          {
+            hanzi: "右",
+            hanziId: "0058",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "宇",
+            hanziId: "0059",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "羽",
+            hanziId: "0060",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "雨",
+            hanziId: "0061",
+            word: ["晴雨", "雨天", ""],
+          },
+        ],
       },
       {
         name: "うた",
         id: getId(),
+        child: [
+          {
+            hanzi: "唄",
+            hanziId: "0062",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "うつ",
         id: getId(),
+        child: [
+          {
+            hanzi: "鬱",
+            hanziId: "0063",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "うね",
         id: getId(),
+        child: [
+          {
+            hanzi: "畝",
+            hanziId: "0064",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "うら",
         id: getId(),
+        child: [
+          {
+            hanzi: "浦",
+            hanziId: "0065",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "うん",
         id: getId(),
+        child: [
+          {
+            hanzi: "運",
+            hanziId: "0066",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "雲",
+            hanziId: "0067",
+            word: ["", "", ""],
+          },
+        ],
       },
     ],
   },
@@ -159,18 +497,206 @@ export const hiraganaContentList = [
       {
         name: "えい",
         id: getId(),
+        child: [
+          {
+            hanzi: "永",
+            hanziId: "0068",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "泳",
+            hanziId: "0069",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "英",
+            hanziId: "0070",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "映",
+            hanziId: "0071",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "栄",
+            hanziId: "0072",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "営",
+            hanziId: "0073",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "詠",
+            hanziId: "0074",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "影",
+            hanziId: "0075",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "鋭",
+            hanziId: "0076",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "衛",
+            hanziId: "0077",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "えき",
         id: getId(),
+        child: [
+          {
+            hanzi: "易",
+            hanziId: "0078",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "疫",
+            hanziId: "0079",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "益",
+            hanziId: "0080",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "液",
+            hanziId: "0081",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "駅",
+            hanziId: "0082",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "えつ",
         id: getId(),
+        child: [
+          {
+            hanzi: "悦",
+            hanziId: "0083",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "越",
+            hanziId: "0084",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "謁",
+            hanziId: "0085",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "閲",
+            hanziId: "0086",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "えん",
         id: getId(),
+        child: [
+          {
+            hanzi: "",
+            hanziId: "0087",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0088",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0089",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0090",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0091",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0092",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0093",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0094",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0095",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0096",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0097",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0098",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0099",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0100",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0101",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0102",
+            word: ["", "", ""],
+          },
+          {
+            hanzi: "",
+            hanziId: "0103",
+            word: ["", "", ""],
+          },
+        ],
       },
     ],
   },
@@ -180,38 +706,101 @@ export const hiraganaContentList = [
       {
         name: "お",
         id: getId(),
+        child: [
+          {
+            hanzi: "",
+            hanziId: "",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "おう",
         id: getId(),
+        child: [
+          {
+            hanzi: "",
+            hanziId: "",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "おか",
         id: getId(),
+        child: [
+          {
+            hanzi: "",
+            hanziId: "",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "おく",
         id: getId(),
+        child: [
+          {
+            hanzi: "",
+            hanziId: "",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "おそれ",
         id: getId(),
+        child: [
+          {
+            hanzi: "",
+            hanziId: "",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "おつ",
         id: getId(),
+        child: [
+          {
+            hanzi: "",
+            hanziId: "",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "おれ",
         id: getId(),
+        child: [
+          {
+            hanzi: "",
+            hanziId: "",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "おろす",
         id: getId(),
+        child: [
+          {
+            hanzi: "",
+            hanziId: "",
+            word: ["", "", ""],
+          },
+        ],
       },
       {
         name: "おん",
         id: getId(),
+        child: [
+          {
+            hanzi: "",
+            hanziId: "",
+            word: ["", "", ""],
+          },
+        ],
       },
     ],
   },
@@ -1179,3 +1768,13 @@ export const hiraganaContentList = [
     ],
   },
 ];
+
+export const charId2Char = {};
+for (let item of hiraganaContentList) {
+  for (let subItem of item.list) {
+    charId2Char[subItem.id] = {
+      ...subItem,
+      title: item.title,
+    };
+  }
+}

@@ -2,7 +2,7 @@
   <nut-elevator
     :index-list="dataList"
     :is-sticky="true"
-    :height="300"
+    height="90vh"
     @click-item="clickItem"
     @click-index="clickIndex"
   >
@@ -21,7 +21,7 @@ const clickItem = (key: string, item: any) => {
   router.push({
     path: "/pages/detail",
     query: {
-      char: item.name,
+      charid: item.id,
     },
   });
 };

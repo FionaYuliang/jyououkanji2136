@@ -31,8 +31,8 @@ export default {
 };
 </script>
 <style lang="scoped">
-.footer-bar{
+/* .footer-bar{
   bottom:0;
   position:fixed;
-}
+} */
 </style>

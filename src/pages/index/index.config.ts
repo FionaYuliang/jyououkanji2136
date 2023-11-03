@@ -1,3 +1,3 @@
 export default definePageConfig({
-  navigationBarTitleText: "基座页面",
+  navigationBarTitleText: "目录索引",
 });
